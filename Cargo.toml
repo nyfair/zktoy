@@ -1,0 +1,17 @@
+[package]
+name = "zktoy"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+bellman = { package = "bellman_ce", path = "bellman" }
+franklin-crypto = { path = "franklin-crypto", features = [ "multicore", "plonk" ] }
+clap = { version =  "4", features = [ "derive" ] }
+itertools = "0"
+hex-literal = "0"
+byteorder = "1"
+num-bigint = "0"
+num-traits = "0"
+anyhow = "1"
+serde = { version = "1", features = [ "derive" ] }
+serde_json = "1"
